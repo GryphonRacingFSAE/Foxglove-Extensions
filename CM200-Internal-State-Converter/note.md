@@ -1,0 +1,1 @@
+use enum for all non-bool values
