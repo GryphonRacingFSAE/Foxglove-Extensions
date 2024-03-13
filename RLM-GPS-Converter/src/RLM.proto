@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+message RLM_ACCEL_0XF0 {
+	float X_ACCEL = 1;
+	float Y_ACCEL = 2;
+	float Z_ACCEL = 3;
+}
+
+message RLM_GYRO_0XF1 {
+	float X_ROT = 1;
+	float Y_ROT = 2;
+	float Z_ROT = 3;
+}
+
+message RLM_POSITION_0XF2 {
+	float LATITUDE = 1;
+	float LONGITUDE = 2;
+}
+
+message RLM_TRAJECTORY_0XF3 {
+	float SPEED = 1;
+	float DIRECTION = 2;
+}
+
+message RLM_TIME_0XF4 {
+	float TIME = 1;
+}
+
