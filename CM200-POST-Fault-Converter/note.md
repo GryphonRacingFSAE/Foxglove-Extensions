@@ -1,1 +1,0 @@
-output should be table with only the active faults
