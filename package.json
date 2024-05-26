@@ -1,8 +1,8 @@
 {
-  "name": "RLM-GPS-Converter",
-  "displayName": "RLM-GPS-Converter",
+  "name": "gracing-converter",
+  "displayName": "Gryphon-Racing-Converter",
   "description": "",
-  "publisher": "unknown",
+  "publisher": "Gryphon Racing",
   "homepage": "",
   "version": "0.0.0",
   "license": "UNLICENSED",
@@ -40,6 +40,8 @@
     "typescript": "5.4.2"
   },
   "dependencies": {
+    "@foxglove/extension": "^2.4.0",
+    "@foxglove/schemas": "^1.6.2",
     "ts-proto": "^1.169.0",
     "ts-protoc-gen": "^0.15.0"
   }
