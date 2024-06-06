@@ -1,8 +1,10 @@
-# my-extension-name
-
-## _A Foxglove Studio Extension_
+# Gryphon Racing Foxglove Extensions
 
 [Foxglove Studio](https://github.com/foxglove/studio) allows developers to create extensions, or custom code that is loaded and executed inside the Foxglove Studio application. This can be used to add custom panels. Extensions are authored in TypeScript using the `@foxglove/studio` SDK.
+
+## Coverage
+
+This extension only includes the RLM GPS location, all other conversions are done via user scripts.
 
 ## Develop
 
@@ -36,6 +38,6 @@ This command will package the extension into a `.foxe` file in the local directo
 
 ## Publish
 
-You can publish the extension for the public marketplace or privately for your organization.
+You can publish the extension privately for our organization.
 
 See documentation here: https://foxglove.dev/docs/studio/extensions/publish#packaging-your-extension
